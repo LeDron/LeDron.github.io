@@ -8,17 +8,9 @@ comments: false
     
 <center><a href="https://LeDron.github.io"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## Background
+* Electronical Enginnering, Pohang University Of Science and Technology (POSTECH) 
+* Alticast Co. AI team InternShip (2017.01 ~ 2017. 06)
 
 ## Preview
 
