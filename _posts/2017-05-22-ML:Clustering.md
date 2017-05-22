@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "how to use MS face congnition API"
+title: "how to use MS face cognition API"
 data: 2017-05-22
 tags: [programming, API, MS]
 comments: true
