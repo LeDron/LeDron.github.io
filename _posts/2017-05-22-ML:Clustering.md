@@ -7,4 +7,7 @@ tags: [sample post, readability, test]
 comments: true
 ---
 
+## What is Clustering?
+
+a cluster means a group of similiar feature 
 
