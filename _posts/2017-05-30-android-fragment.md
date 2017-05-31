@@ -5,8 +5,6 @@ excerpt: "안드로이드 앱개발 fragment"
 data: 2017-05-30
 comments: true
 
-tag:
-
 ---
 
 #  Why Fragment ?
@@ -90,7 +88,7 @@ public void OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle sa
 
 
 **fragment.java**
-~~~java
+~~~ java
 
 public class button_fragment extends fragment{
 
@@ -133,7 +131,8 @@ public class button_fragment extends fragment{
 ~~~
 
 **MainActivity.java**
-~~~java
+~~~ java
+
 public class MainActivity extends AppCompatActivity{
 
     @Override
