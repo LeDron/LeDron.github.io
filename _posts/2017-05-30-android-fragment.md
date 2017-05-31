@@ -25,7 +25,7 @@ I think **Fragment** is a Views gorup or a module of ViewGroup, So I call "**Fra
 ### Disadvantage
 1. one Fragment can be super related with one Activity. So it can't reuse.
 
-#
+---
 
 ### LifeCycle
 ![Fragment.LifeCycle](https://i.stack.imgur.com/fRxIQ.png)
@@ -156,6 +156,6 @@ public class MainActivity extends AppCompatActivity{
     }
 }
 ~~~
-</br>
+<br/>
 So, in order to use Fragment, we need to make at least four file. 
  **fragment.java, fragment.xml, MainActivity.java, MainActivity.xml**  
