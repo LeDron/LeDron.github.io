@@ -157,5 +157,5 @@ public class MainActivity extends AppCompatActivity{
 }
 ~~~
 <br/>
-So, in order to use Fragment, we need to make at least four file. 
+So, in order to use Fragment, we need to make at least four file. <br/>
  **fragment.java, fragment.xml, MainActivity.java, MainActivity.xml**  
