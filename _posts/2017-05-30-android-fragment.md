@@ -4,9 +4,8 @@ title: "[Android App]   Activity vs Fragment"
 excerpt: "안드로이드 앱개발 fragment"
 data: 2017-05-30
 comments: true
+
 tag:
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-<!-- tocstop -->
 
 ---
 
