@@ -16,7 +16,7 @@ So, we choose **Fragment** to resolve these problem.
 I think **Fragment** is a Views gorup or a module of ViewGroup, So I call "**Fragment**" to "semi - Activity"
 
 ### Advantage
-1. Reuse in every Activity.
+1. To reuse in every Activity.
 2. Able to use Fragments more than one, in Activity.
 3. If you change portrait to landscape mode, we can relocate Views.
 4. if you use fragments, you can make app using few activity.
