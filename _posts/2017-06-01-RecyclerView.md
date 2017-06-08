@@ -57,6 +57,7 @@ compile 'com.android.support:recyclerview-v7:25.2.0'
 ~~~
 
 **MainActivity.java**
+</br>
 I wrote down urls, but I recommand you programmatically get your urls.
 ~~~ java
 
