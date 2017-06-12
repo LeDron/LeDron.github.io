@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to use a RecyclerView with loading URL image"
+title: "How to use a RecyclerView with loading URL image and using Glide"
 excerpt: "withiut OOM, load URL image in RecyclerView"
 tag: [ListView, Android, RecyclerView]
 date: 2017-06-01
@@ -9,7 +9,7 @@ comments: true
 
 # Why RecyclerView?
 
-Android has a limit of heap memory. So when we insert many videos or images in youer app, I'm sure "Out of Memory(OOM)" happens. RecyclerView is similar to ListView, but it is more smart about heap memory.
+Android has a limit of heap memory. So when we insert many videos or images in youer app, I'm sure "Out of Memory(OOM)" happens. We can handle this issue by using a RecyclerView RecyclerView is similar to ListView, but it is more smart about heap memory.
 
 ## Problems
 1. if you use a ListView loading Bitmap image items in real time, you have out of memory errors.
@@ -17,9 +17,11 @@ Android has a limit of heap memory. So when we insert many videos or images in y
 ---
 ## Code
 Before you write this code, you should add this library in **build.gradle**
+To load images, we can use Glide, which is developed from Google. It is very useful and efficient.
 ~~~ gradle
 dependencies{
 compile 'com.android.support:recyclerview-v7:25.2.0'
+compile 'com.github.bumptech.glide:glide:3.7.0'
 }
 ~~~
 
@@ -58,7 +60,7 @@ compile 'com.android.support:recyclerview-v7:25.2.0'
 
 **MainActivity.java**
 </br>
-I wrote down urls, but I recommand you programmatically get your urls.
+I wrote down urls, but I recommand you programmatically get your urls. These urls are jordan images through searching google.
 ~~~ java
 
 ~~~
@@ -67,3 +69,4 @@ I wrote down urls, but I recommand you programmatically get your urls.
 ~~~ java
 
 ~~~
+![pp](https://www.youtube.com/watch?v=SNLlr6fRmkA&feature=youtu.be)
