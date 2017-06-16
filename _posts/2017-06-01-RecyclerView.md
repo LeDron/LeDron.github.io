@@ -16,6 +16,9 @@ Android has a limit of heap memory. So when we insert many videos or images in y
 
 ---
 ## Code
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SNLlr6fRmkA" frameborder="0" allowfullscreen></iframe>
+<br>
+<br>
 Before you write this code, you should add this library in **build.gradle**
 To load images, we can use Glide, which is developed from Google. It is very useful and efficient.
 ~~~ gradle
@@ -161,4 +164,3 @@ public class Adapter  extends RecyclerView.Adapter<Adapter.ViewHolder>{
 ![images](./../recyclerView.png)
 
 you'd like to watch my demo.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SNLlr6fRmkA" frameborder="0" allowfullscreen></iframe>
