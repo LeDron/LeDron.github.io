@@ -161,4 +161,4 @@ public class Adapter  extends RecyclerView.Adapter<Adapter.ViewHolder>{
 ![images](./../recyclerView.png)
 
 you'd like to watch my demo.
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=SNLlr6fRmkA&feature=youtu.be" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SNLlr6fRmkA" frameborder="0" allowfullscreen></iframe>
