@@ -25,7 +25,7 @@ compile 'com.github.bumptech.glide:glide:3.7.0'
 }
 ~~~
 
-**activity.xml**
+### **activity.xml**
 ~~~ xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -44,7 +44,7 @@ compile 'com.github.bumptech.glide:glide:3.7.0'
 </LinearLayout>
 
 ~~~
-**listitem.xml**
+### **listitem.xml**
 ~~~ xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -58,7 +58,7 @@ compile 'com.github.bumptech.glide:glide:3.7.0'
 </LinearLayout>
 ~~~
 
-**MainActivity.java**
+### **MainActivity.java**
 <br>
 I wrote down urls, but I recommand you programmatically get your urls. These urls are jordan images through searching google.
 **LayoutManager** handles RecyclerView's layout like Item's array (num of items per a row)
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ~~~
 
-**Adapter.java**
+### **Adapter.java**
 
 **ViewHolder** holds item's views. **RecyclerView recycles the holders as ten holders are only created.** New holder is created in onCreateViewHoler and the return value goes by onBindViewHolder, which handles UI changes like putting images into ImageView. **If positon is over ten, onCreateViewHoler is not called and the onBindViewHolder reuses the holders existed.**
 Glide is module for loading url images into view, directly. To change UI, we have to work in onBindViewHolder, so we call the Glide in onBindViewHolder.
