@@ -59,7 +59,7 @@ compile 'com.github.bumptech.glide:glide:3.7.0'
 ~~~
 
 **MainActivity.java**
-</br>
+<br></br>
 I wrote down urls, but I recommand you programmatically get your urls. These urls are jordan images through searching google.
 **LayoutManager** handles RecyclerView's layout like Item's array (num of items per a row)
 ~~~ java
